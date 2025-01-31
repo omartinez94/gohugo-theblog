@@ -6,6 +6,7 @@ description: "Learn the basics of Git, one of the most widely used version contr
 tags: ["Git", "Version Control", "Software Development"]
 categories: ["General"]
 ---
+{{< figure src="/images/image3.jpg" alt="Template image" class="post-banner-image" >}}
 
 # Version Control with Git
 

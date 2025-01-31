@@ -8,3 +8,16 @@
 .active {
     font-weight: bolder;
 }
+
+.post-banner-image {
+    width: 100%;
+    height: 15em;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        width: 100%;
+    }
+}

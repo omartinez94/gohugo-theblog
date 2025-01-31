@@ -6,9 +6,11 @@ description: "An introduction to my blog about coding, software development, and
 tags: ["Introduction", "Software Development", "Coding"]
 categories: ["General"]
 ---
+{{< figure src="/images/image2.jpg" alt="Template image" class="post-banner-image" >}}
+
 ## Hey there! 👋
 
-Hello and welcome to my blog! As a software engineer passionate about coding, technology, and development, I’ve created this space to share insights, tutorials, and thoughts on various aspects of software engineering. 
+Hello and welcome to my blog! As a software engineer passionate about coding, technology, and development, I’ve created this space to share insights, tutorials, and thoughts on various aspects of software engineering.
 
 ## What You Can Expect
 In this blog, I’ll be covering topics like:
