@@ -12,10 +12,10 @@
           <a href="/posts" class="nav-link px-2 {{ if eq .Section `posts` }}active{{ end }}">Posts</a>
         </li>
         <li>
-          <a href="/customers" class="nav-link px-2 {{ if eq .Section `customers` }}active{{ end }}">Customers</a>
+          <a href="/customers" class="nav-link px-2 {{ if eq .Path `/customers` }}active{{ end }}">Customers</a>
         </li>
         <li>
-          <a href="/products" class="nav-link px-2 {{ if eq .Section `products` }}active{{ end }}">Products</a>
+          <a href="/products" class="nav-link px-2 {{ if eq .Path `/products` }}active{{ end }}">Products</a>
         </li>
       </ul>
 

@@ -1,7 +1,7 @@
 <footer class="footer fixed-bottom bg-dark">
 
     <div class="row footer-text">
-      <div class="col-12 col-md text-center text-md-left nav-link text-white">© My Organisation - 2020 All rights reserved.</div>
+      <div class="col-12 col-md text-center text-md-left nav-link text-white">© The Blog - 2020 All rights reserved.</div>
     </div>
 
   <!-- JavaScript and dependencies -->
@@ -10,4 +10,10 @@
   {{ $js := slice $bootstrap | resources.Concat "js/bundle.js" | resources.Minify }}
 
   <script src="{{$js.RelPermalink}}" defer></script>
+  <script>
+    let page = {{ . | jsonify (dict "indent" "  ") | safeJS }};
+    let pages = {{ .Pages | jsonify (dict "indent" "  ") | safeJS }};
+    console.log("Page Variables:", page);
+    console.log("Pages Variables:", pages);
+  </script>
 </footer>
