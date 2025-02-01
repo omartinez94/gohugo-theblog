@@ -5,6 +5,7 @@
     </div>
 
   <!-- JavaScript and dependencies -->
+  <script src="{{ `js/main.js` | relURL }}"></script>
 
   {{ $bootstrap := resources.Get "js/bootstrap.bundle.min.js" }}
   {{ $js := slice $bootstrap | resources.Concat "js/bundle.js" | resources.Minify }}
