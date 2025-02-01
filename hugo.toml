@@ -1,8 +1,8 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://omartinez94.github.io/gohugo-theblog/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'The Blog'
 theme = "bootstrap"
-relativeURLS = true
+relativeURLS = false
 
 [module]
   [[module.mounts]]
