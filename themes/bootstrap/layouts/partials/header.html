@@ -9,13 +9,13 @@
 
       <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
         <li>
-          <a href="/posts" class="nav-link px-2 {{ if eq .Section `posts` }}active{{ end }}">Posts</a>
+          <a href="{{ .Site.BaseURL | relURL }}/posts" class="nav-link px-2 {{ if eq .Section `posts` }}active{{ end }}">Posts</a>
         </li>
         <li>
-          <a href="/customers" class="nav-link px-2 {{ if eq .Path `/customers` }}active{{ end }}">Customers</a>
+          <a href="{{ .Site.BaseURL | relURL }}/customers" class="nav-link px-2 {{ if eq .Path `/customers` }}active{{ end }}">Customers</a>
         </li>
         <li>
-          <a href="/products" class="nav-link px-2 {{ if eq .Path `/products` }}active{{ end }}">Products</a>
+          <a href="{{ .Site.BaseURL | relURL }}/products" class="nav-link px-2 {{ if eq .Path `/products` }}active{{ end }}">Products</a>
         </li>
       </ul>
 
