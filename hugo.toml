@@ -9,6 +9,7 @@ relativeURLS = false
     source = "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
     target = "assets/js/bootstrap.bundle.min.js"
 
-[services]
-  [services.googleAnalytics]
-    id = 'G-7DCM4651L4'
+[params]
+  [params.yandex]
+    id = "99829495"
+    disable = false
