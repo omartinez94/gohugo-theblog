@@ -13,3 +13,6 @@ relativeURLS = false
   [params.yandex]
     id = "99829495"
     disable = false
+  [params.pixel]
+    id = "1285583096067518"
+    disable = false
