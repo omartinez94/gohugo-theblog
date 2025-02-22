@@ -3,7 +3,7 @@ backend:
   branch: main # Branch to update (optional; defaults to master)
   repo: omartinez94/gohugo-theblog # Repo for the site
   api_root: https://api.github.com
-  auth_endpoint: oauth/authorize
+  auth_endpoint: auth
   base_url: https://github.com/omartinez94/gohugo-theblog
   site_domain: https://omartinez94.github.io/
   commit_messages:
