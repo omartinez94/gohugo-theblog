@@ -16,3 +16,5 @@ relativeURLS = false
   [params.pixel]
     id = "1285583096067518"
     disable = false
+  [params.mailchimp]
+    disable = false
